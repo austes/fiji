@@ -1,0 +1,214 @@
+@media only screen and (max-width: 768px) {
+  .container2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  /*position: relative;*/
+  top: 0px;
+  width: inherit;
+  max-width: inherit;
+}
+
+.container {
+  /*width: 80%;
+  margin: 0 auto;*/
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  overflow: auto;
+}
+
+.branding {
+  float: left;
+}
+.branding span {
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.menu {
+  float: right;
+}
+.menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+}
+
+.fiji {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* position: absolute;*/
+  text-align: center;
+}
+.fiji h1 {
+  font-weight: bold;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  font-size: 150px;
+  padding-top: 108px;
+  margin: 0;
+}
+.fiji h2 {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+.fiji button {
+  background-color: dodgerblue;
+  border-radius: 35px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.sekcija2 {
+  background-image: url("../img/background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+.sekcija2 h1 {
+  font-weight: bold;
+  color: #7ab55c;
+  font-size: 50px;
+  padding-top: 108px;
+  margin: 0;
+}
+.sekcija2 h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.container2 {
+  width: 80%;
+  margin: 0 auto;
+  /* overflow: auto;*/
+  padding: 80px;
+  display: flex;
+}
+.container2 .box {
+  font-family: "Open Sans", sans-serif;
+  /*font-family: 'Permanent Marker', cursive;*/
+  float: left;
+  width: 28%;
+  padding: 20px;
+  text-align: center;
+  flex-grow: inherit;
+}
+.container2 .box i {
+  font-size: 50px;
+  border-radius: 200px;
+  padding: 55px;
+  border: 1px solid #d6cfcf;
+  background-color: rgba(0, 0, 0, 0);
+}
+.container2 .box i:hover {
+  color: #7ab55c;
+  border: 1px solid #7ab55c;
+}
+.container2 h3 {
+  font-weight: bold;
+}
+.container2 p {
+  color: #666666;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+footer {
+  border-top: #f8f8f8 1px solid;
+}
+footer .container {
+  display: flex;
+  flex-grow: inherit;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  padding: 90px;
+}
+footer .container span {
+  font-weight: 900;
+  font-family: "Anton", sans-serif;
+  color: #95a5a9;
+  padding: 70px;
+  font-size: 25px;
+}
+footer .container .footer-columns {
+  flex-direction: row;
+}
+footer .container .footer-columns a {
+  text-decoration: none;
+  color: #95a5a9;
+  font-size: 13px;
+  line-height: 0.8;
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: space-between;
+}
+footer .container .footer-columns a:hover {
+  color: #7ab55c;
+}
+footer .container .footer-columns ul {
+  padding: 0;
+  margin: 0;
+}
+footer .container .footer-columns ul li {
+  text-decoration: none;
+}
+footer .container .footer-columns i {
+  font-size: 15px;
+  border-radius: 100px;
+  padding: 7px;
+  border: 1px solid #d6cfcf;
+  color: #f8f8f8;
+  background-color: #cad2d4;
+}
+footer .container .footer-columns p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    width: 100%;
+  }
+
+  container {
+    width: 100%;
+  }
+
+  i {
+    width: 50%;
+  }
+
+  footer .container {
+    width: 20%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
